@@ -1,0 +1,41 @@
+2025-11-28 21:43:32 INFO     Namespace(data_root='./data/movie', data_name='movie', lm_path='./models/sentence-transformers/bert-base-nli-mean-tokens', fusion_model='FusionQuery', types=['KG', 'CSV'], iters=20, thres_for_query=0.9, thres_for_fusion=0.3, gpu=0, seed=2021)
+2025-11-28 21:43:32 INFO     {'theta': 3e-05, 'init_trust': 0.95, 'history_size': 50, 'temperature': 0.5, 'max_iters': 5, 'usemeta': True}
+2025-11-28 21:43:32 INFO     seed: 2021
+2025-11-28 21:43:32 INFO     ****************[Data Preparation]****************
+2025-11-28 21:43:32 INFO     Use pytorch device_name: cuda
+2025-11-28 21:43:32 INFO     Load pretrained SentenceTransformer: ./models/sentence-transformers/bert-base-nli-mean-tokens
+2025-11-28 21:50:35 INFO     The number of data sources: 9
+2025-11-28 21:50:35 INFO     ***************[Query Preparation]****************
+2025-11-28 21:50:40 INFO     The number of queries: 210
+2025-11-28 21:50:40 INFO     **********************[END]***********************
+2025-11-28 21:50:45 INFO     Record @ 20-th query
+2025-11-28 21:50:45 INFO     runtime (s): 0.6610
+2025-11-28 21:50:45 INFO     | f1:   38.26 | prec:   23.66 | rec:  100.00 | acc:   39.32 |
+2025-11-28 21:50:51 INFO     Record @ 40-th query
+2025-11-28 21:50:51 INFO     runtime (s): 1.9803
+2025-11-28 21:50:51 INFO     | f1:   88.89 | prec:   80.00 | rec:  100.00 | acc:   80.00 |
+2025-11-28 21:50:58 INFO     Record @ 60-th query
+2025-11-28 21:50:58 INFO     runtime (s): 4.3113
+2025-11-28 21:50:58 INFO     | f1:    0.52 | prec:    8.33 | rec:    0.27 | acc:   67.75 |
+2025-11-28 21:51:06 INFO     Record @ 80-th query
+2025-11-28 21:51:06 INFO     runtime (s): 7.8236
+2025-11-28 21:51:06 INFO     | f1:   69.57 | prec:   72.73 | rec:   66.67 | acc:   53.33 |
+2025-11-28 21:51:10 INFO     Record @ 100-th query
+2025-11-28 21:51:10 INFO     runtime (s): 7.9791
+2025-11-28 21:51:10 INFO     | f1:  100.00 | prec:  100.00 | rec:  100.00 | acc:  100.00 |
+2025-11-28 21:51:15 INFO     Record @ 120-th query
+2025-11-28 21:51:15 INFO     runtime (s): 8.7564
+2025-11-28 21:51:15 INFO     | f1:   85.71 | prec:   75.00 | rec:  100.00 | acc:   75.00 |
+2025-11-28 21:51:20 INFO     Record @ 140-th query
+2025-11-28 21:51:20 INFO     runtime (s): 8.7915
+2025-11-28 21:51:20 INFO     | f1:   40.00 | prec:   25.00 | rec:  100.00 | acc:   25.00 |
+2025-11-28 21:51:24 INFO     Record @ 160-th query
+2025-11-28 21:51:24 INFO     runtime (s): 8.8286
+2025-11-28 21:51:24 INFO     | f1:   80.00 | prec:   66.67 | rec:  100.00 | acc:   66.67 |
+2025-11-28 21:51:28 INFO     Record @ 180-th query
+2025-11-28 21:51:28 INFO     runtime (s): 8.8595
+2025-11-28 21:51:28 INFO     | f1:   50.00 | prec:  100.00 | rec:   33.33 | acc:   33.33 |
+2025-11-28 21:51:33 INFO     Record @ 200-th query
+2025-11-28 21:51:33 INFO     runtime (s): 9.4376
+2025-11-28 21:51:33 INFO     | f1:   83.33 | prec:   71.43 | rec:  100.00 | acc:   71.43 |
+2025-11-28 21:51:36 INFO      | F1:   33.38 | Prec:   47.75 | Rec:   25.66 | Acc:   58.19 || Query time:   45.94 | Fusion time:    9.47

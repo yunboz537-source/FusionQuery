@@ -1,0 +1,26 @@
+2025-11-27 18:33:55 INFO     Namespace(data_root='./data/book', data_name='book', lm_path='./models/sentence-transformers/bert-base-nli-mean-tokens', fusion_model='FusionQuery', types=['JSON', 'CSV', 'XML'], iters=20, thres_for_query=0.9, thres_for_fusion=0.4, gpu=0, seed=2021)
+2025-11-27 18:33:55 INFO     {'theta': 3e-05, 'init_trust': 0.95, 'history_size': 50, 'temperature': 0.5, 'max_iters': 5, 'usemeta': True}
+2025-11-27 18:33:55 INFO     seed: 2021
+2025-11-27 18:33:55 INFO     ****************[Data Preparation]****************
+2025-11-27 18:33:55 INFO     Use pytorch device_name: cuda
+2025-11-27 18:33:55 INFO     Load pretrained SentenceTransformer: ./models/sentence-transformers/bert-base-nli-mean-tokens
+2025-11-27 18:38:12 INFO     The number of data sources: 10
+2025-11-27 18:38:12 INFO     ***************[Query Preparation]****************
+2025-11-27 18:38:14 INFO     The number of queries: 100
+2025-11-27 18:38:14 INFO     **********************[END]***********************
+2025-11-27 18:38:15 INFO     Record @ 20-th query
+2025-11-27 18:38:15 INFO     runtime (s): 0.0963
+2025-11-27 18:38:15 INFO     | f1:   94.74 | prec:   90.00 | rec:  100.00 | acc:   90.00 |
+2025-11-27 18:38:15 INFO     Record @ 40-th query
+2025-11-27 18:38:15 INFO     runtime (s): 0.2397
+2025-11-27 18:38:15 INFO     | f1:   46.15 | prec:   30.00 | rec:  100.00 | acc:   30.00 |
+2025-11-27 18:38:16 INFO     Record @ 60-th query
+2025-11-27 18:38:16 INFO     runtime (s): 0.5217
+2025-11-27 18:38:16 INFO     | f1:   87.08 | prec:   77.94 | rec:   98.65 | acc:   77.12 |
+2025-11-27 18:38:17 INFO     Record @ 80-th query
+2025-11-27 18:38:17 INFO     runtime (s): 1.0650
+2025-11-27 18:38:17 INFO     | f1:   80.00 | prec:   66.67 | rec:  100.00 | acc:   66.67 |
+2025-11-27 18:38:18 INFO     Record @ 100-th query
+2025-11-27 18:38:18 INFO     runtime (s): 1.9976
+2025-11-27 18:38:18 INFO     | f1:   80.27 | prec:   67.04 | rec:  100.00 | acc:   67.04 |
+2025-11-27 18:38:18 INFO      | F1:   57.86 | Prec:   41.57 | Rec:   95.12 | Acc:   41.39 || Query time:    1.40 | Fusion time:    2.00

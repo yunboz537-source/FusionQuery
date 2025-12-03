@@ -1,0 +1,6 @@
+2025-11-28 20:07:01 INFO     Namespace(data_root='./data/movie', data_name='movie', lm_path='./models/sentence-transformers/bert-base-nli-mean-tokens', fusion_model='FusionQuery', types=['JSON', 'KG', 'CSV'], iters=20, thres_for_query=0.9, thres_for_fusion=0.3, gpu=0, seed=2021)
+2025-11-28 20:07:01 INFO     {'theta': 3e-05, 'init_trust': 0.95, 'history_size': 50, 'temperature': 0.5, 'max_iters': 5, 'usemeta': True}
+2025-11-28 20:07:01 INFO     seed: 2021
+2025-11-28 20:07:01 INFO     ****************[Data Preparation]****************
+2025-11-28 20:07:01 INFO     Use pytorch device_name: cuda
+2025-11-28 20:07:01 INFO     Load pretrained SentenceTransformer: ./models/sentence-transformers/bert-base-nli-mean-tokens

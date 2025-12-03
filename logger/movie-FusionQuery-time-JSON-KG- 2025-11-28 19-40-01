@@ -1,0 +1,45 @@
+2025-11-28 19:40:01 INFO     Namespace(data_name='movie', data_root='./data/movie', fusion_model='FusionQuery', gpu=0, iters=20, lm_path='./models/sentence-transformers/bert-base-nli-mean-tokens', seed=2021, thres_for_fusion=0.4, thres_for_query=0.9, types=['JSON', 'KG'])
+2025-11-28 19:40:01 INFO     {'theta': 3e-05, 'init_trust': 0.95, 'history_size': 50, 'temperature': 0.5, 'max_iters': 5, 'usemeta': True}
+2025-11-28 19:40:01 INFO     seed: 2021
+2025-11-28 19:40:01 INFO     ****************[Data Preparation]****************
+2025-11-28 19:40:01 INFO     Use pytorch device_name: cuda
+2025-11-28 19:40:01 INFO     Load pretrained SentenceTransformer: ./models/sentence-transformers/bert-base-nli-mean-tokens
+2025-11-28 19:40:01 WARNING  You try to use a model that was created with version 3.4.1, however, your version is 3.2.1. This might cause unexpected behavior or errors. In that case, try to update to the latest version.
+
+
+
+2025-11-28 19:46:04 INFO     The number of data sources: 9
+2025-11-28 19:46:04 INFO     ***************[Query Preparation]****************
+2025-11-28 19:46:10 INFO     The number of queries: 210
+2025-11-28 19:46:10 INFO     **********************[END]***********************
+2025-11-28 19:46:13 INFO     Record @ 20-th query
+2025-11-28 19:46:13 INFO     runtime (s): 0.3472
+2025-11-28 19:46:13 INFO     | f1:    0.00 | prec:    0.00 | rec:    0.00 | acc:   67.12 |
+2025-11-28 19:46:17 INFO     Record @ 40-th query
+2025-11-28 19:46:17 INFO     runtime (s): 0.7465
+2025-11-28 19:46:17 INFO     | f1:   80.00 | prec:   66.67 | rec:  100.00 | acc:   66.67 |
+2025-11-28 19:46:21 INFO     Record @ 60-th query
+2025-11-28 19:46:21 INFO     runtime (s): 1.7436
+2025-11-28 19:46:21 INFO     | f1:    0.98 | prec:   14.29 | rec:    0.51 | acc:   67.94 |
+2025-11-28 19:46:27 INFO     Record @ 80-th query
+2025-11-28 19:46:27 INFO     runtime (s): 4.9517
+2025-11-28 19:46:27 INFO     | f1:   94.74 | prec:   90.00 | rec:  100.00 | acc:   90.00 |
+2025-11-28 19:46:30 INFO     Record @ 100-th query
+2025-11-28 19:46:30 INFO     runtime (s): 4.9789
+2025-11-28 19:46:30 INFO     | f1:    0.00 | prec:    0.00 | rec:    0.00 | acc:    0.00 |
+2025-11-28 19:46:33 INFO     Record @ 120-th query
+2025-11-28 19:46:33 INFO     runtime (s): 5.0047
+2025-11-28 19:46:33 INFO     | f1:    0.00 | prec:    0.00 | rec:    0.00 | acc:    0.00 |
+2025-11-28 19:46:37 INFO     Record @ 140-th query
+2025-11-28 19:46:37 INFO     runtime (s): 5.0299
+2025-11-28 19:46:37 INFO     | f1:    0.00 | prec:    0.00 | rec:    0.00 | acc:    0.00 |
+2025-11-28 19:46:40 INFO     Record @ 160-th query
+2025-11-28 19:46:40 INFO     runtime (s): 5.0555
+2025-11-28 19:46:40 INFO     | f1:    0.00 | prec:    0.00 | rec:    0.00 | acc:    0.00 |
+2025-11-28 19:46:43 INFO     Record @ 180-th query
+2025-11-28 19:46:43 INFO     runtime (s): 5.0855
+2025-11-28 19:46:43 INFO     | f1:    0.00 | prec:    0.00 | rec:    0.00 | acc:    0.00 |
+2025-11-28 19:46:46 INFO     Record @ 200-th query
+2025-11-28 19:46:46 INFO     runtime (s): 5.1101
+2025-11-28 19:46:46 INFO     | f1:    0.00 | prec:    0.00 | rec:    0.00 | acc:    0.00 |
+2025-11-28 19:46:48 INFO      | F1:   14.58 | Prec:   47.74 | Rec:    8.60 | Acc:   61.56 || Query time:   32.59 | Fusion time:    5.12

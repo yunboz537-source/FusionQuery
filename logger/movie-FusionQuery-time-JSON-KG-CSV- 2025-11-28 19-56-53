@@ -1,0 +1,10 @@
+2025-11-28 19:56:53 INFO     Namespace(data_name='movie', data_root='./data/movie', fusion_model='FusionQuery', gpu=0, iters=20, lm_path='./models/sentence-transformers/bert-base-nli-mean-tokens', seed=2021, thres_for_fusion=0.3, thres_for_query=0.9, types=['JSON', 'KG', 'CSV'])
+2025-11-28 19:56:53 INFO     {'theta': 3e-05, 'init_trust': 0.95, 'history_size': 50, 'temperature': 0.5, 'max_iters': 5, 'usemeta': True}
+2025-11-28 19:56:53 INFO     seed: 2021
+2025-11-28 19:56:53 INFO     ****************[Data Preparation]****************
+2025-11-28 19:56:54 INFO     Use pytorch device_name: cuda
+2025-11-28 19:56:54 INFO     Load pretrained SentenceTransformer: ./models/sentence-transformers/bert-base-nli-mean-tokens
+2025-11-28 19:56:54 WARNING  You try to use a model that was created with version 3.4.1, however, your version is 3.2.1. This might cause unexpected behavior or errors. In that case, try to update to the latest version.
+
+
+
